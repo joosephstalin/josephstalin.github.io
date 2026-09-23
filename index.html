@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Joseph Stalin — AI & Data Science Student</title>
+<meta name="description" content="Portfolio of Joseph Stalin, a B.Tech Artificial Intelligence & Data Science student exploring AI, machine learning, software development and cybersecurity.">
+<meta property="og:title" content="Joseph Stalin — AI & Data Science Student">
+<meta property="og:description" content="Building practical software, exploring AI & machine learning, and turning ideas into working systems.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<nav class="nav" aria-label="Primary">
+  <span class="nav-brand">JS</span>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  <div class="nav-links" id="navLinks">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+    <a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#certificates">Certificates</a>
+    <a href="#github">GitHub</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow"><span class="dot"></span> 2nd year · Rajagiri School of Engineering & Technology</div>
+      <h1><span>Joseph Stalin</span><span class="role">AI & Data Science Student</span></h1>
+      <p class="lede">Building practical software, exploring AI & machine learning, and turning ideas into working systems.</p>
+      <div class="cta-row">
+        <a href="#projects" class="btn btn-primary">Explore My Work</a>
+        <a href="#contact" class="btn btn-outline">Connect With Me</a>
+      </div>
+      <div class="social-row">
+        <a href="https://github.com/joseph-stalin" target="_blank" rel="noopener">github.com/joseph-stalin</a>
+        <a href="https://www.linkedin.com/in/joseph-stalin" target="_blank" rel="noopener">linkedin.com/in/joseph-stalin</a>
+      </div>
+    </div>
+    <div class="hero-stage" id="heroStage" aria-hidden="true">
+      <canvas id="nodeCanvas"></canvas>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="s-head reveal"><h2>About Joseph</h2></div>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>Joseph Stalin is a second-year B.Tech Artificial Intelligence & Data Science student at Rajagiri School of Engineering and Technology, expected to graduate in 2029.</p>
+        <p>He's developing his foundations in programming, AI/ML and software development while building practical projects and experimenting with different technologies — treating being early in the journey as room to move fast and try things, not a thing to hide.</p>
+        <div class="chip-cloud">
+          <span class="chip">Curious by default</span><span class="chip">Learns by building</span>
+          <span class="chip">Breaks things on purpose</span><span class="chip">Documents the mess</span>
+          <span class="chip">Still figuring it out</span>
+        </div>
+      </div>
+      <div class="explore-card reveal">
+        <h3>Currently exploring</h3>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+          <li style="display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:10px;"><b>Machine Learning</b></li>
+          <li style="display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:10px;"><b>Generative AI</b></li>
+          <li style="display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:10px;"><b>Intelligent Applications</b></li>
+          <li style="display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:10px;"><b>Software Development</b></li>
+          <li style="display:flex;justify-content:space-between;"><b>Cybersecurity</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <div class="s-head reveal">
+      <h2>Skills</h2>
+      <p class="s-tag">Hover a skill for a quick, honest note on how it's actually used.</p>
+    </div>
+    <div class="skill-tabs reveal" id="skillTabs">
+      <button class="skill-tab active" data-cat="all">All</button>
+      <button class="skill-tab" data-cat="prog">Programming</button>
+      <button class="skill-tab" data-cat="web">Web / Software</button>
+      <button class="skill-tab" data-cat="ai">AI / Data</button>
+      <button class="skill-tab" data-cat="tools">Tools</button>
+    </div>
+    <div class="skill-grid reveal" id="skillGrid">
+      <div class="skill-card" data-cat="prog" style="--accent:var(--coral)"><div><b>Java</b></div><span class="desc">Core programming coursework and problem solving.</span></div>
+      <div class="skill-card" data-cat="prog" style="--accent:var(--coral)"><div><b>Python</b></div><span class="desc">Used for programming, experimentation and AI/ML learning.</span></div>
+      <div class="skill-card" data-cat="prog" style="--accent:var(--coral)"><div><b>C</b></div><span class="desc">Fundamentals of memory, logic and low-level thinking.</span></div>
+      <div class="skill-card" data-cat="web" style="--accent:var(--cobalt)"><div><b>HTML</b></div><span class="desc">Structuring content for the web.</span></div>
+      <div class="skill-card" data-cat="web" style="--accent:var(--cobalt)"><div><b>CSS</b></div><span class="desc">Styling and layout for interfaces.</span></div>
+      <div class="skill-card" data-cat="web" style="--accent:var(--cobalt)"><div><b>JavaScript</b></div><span class="desc">Interactivity in the browser.</span></div>
+      <div class="skill-card" data-cat="web" style="--accent:var(--cobalt)"><div><b>Flask</b></div><span class="desc">Lightweight backends for small projects.</span></div>
+      <div class="skill-card" data-cat="web" style="--accent:var(--cobalt)"><div><b>APIs</b></div><span class="desc">Connecting services and data sources.</span></div>
+      <div class="skill-card" data-cat="ai" style="--accent:var(--gold)"><div><b>ML Fundamentals</b></div><span class="desc">Foundational concepts, still building depth.</span></div>
+      <div class="skill-card" data-cat="ai" style="--accent:var(--gold)"><div><b>Data Science Fundamentals</b></div><span class="desc">Working with, cleaning and reading data.</span></div>
+      <div class="skill-card" data-cat="ai" style="--accent:var(--gold)"><div><b>Generative AI</b></div><span class="desc">Hands-on experimenting with generative models.</span></div>
+      <div class="skill-card" data-cat="ai" style="--accent:var(--gold)"><div><b>LLM Experimentation</b></div><span class="desc">Trying local and hosted language models.</span></div>
+      <div class="skill-card" data-cat="tools" style="--accent:var(--teal)"><div><b>Git / GitHub</b></div><span class="desc">Version control for every project.</span></div>
+      <div class="skill-card" data-cat="tools" style="--accent:var(--teal)"><div><b>Ollama</b></div><span class="desc">Running local language models.</span></div>
+      <div class="skill-card" data-cat="tools" style="--accent:var(--teal)"><div><b>Whisper</b></div><span class="desc">Speech-to-text experimentation.</span></div>
+      <div class="skill-card" data-cat="tools" style="--accent:var(--teal)"><div><b>Google Apps Script</b></div><span class="desc">Quick automations on top of Google tools.</span></div>
+      <div class="skill-card" data-cat="tools" style="--accent:var(--teal)"><div><b>Firebase</b></div><span class="desc">Backend services for small apps.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section id="journey">
+  <div class="wrap">
+    <div class="s-head reveal"><h2>Journey</h2><p class="s-tag">Scroll to walk through it.</p></div>
+    <div class="timeline" id="timeline">
+      <div class="tl-item reveal"><span class="when">Before college</span><h3>Early programming</h3><p>Learning programming fundamentals and problem solving.</p></div>
+      <div class="tl-item reveal"><span class="when">2025 – 2029</span><h3>B.Tech — AI & Data Science</h3><p>Rajagiri School of Engineering and Technology.</p></div>
+      <div class="tl-item reveal"><span class="when">Year 2</span><h3>Project building</h3><p>Started creating practical software projects rather than only studying theory.</p></div>
+      <div class="tl-item reveal"><span class="when">Ongoing</span><h3>AI / ML exploration</h3><p>Beginning deeper exploration of machine learning, deep learning and generative AI.</p></div>
+      <div class="tl-item reveal"><span class="when">Ongoing</span><h3>Cybersecurity / CTF</h3><p>Participating in cybersecurity challenges and learning practical security concepts.</p></div>
+      <div class="tl-item reveal"><span class="when">Now</span><h3>Current</h3><p>Building skills, experimenting with technologies and developing stronger projects.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="wrap">
+    <div class="s-head reveal"><h2>Projects</h2><p class="s-tag">What's actually being built, at whatever stage it's at.</p></div>
+
+    <div class="proj-card reveal">
+      <div>
+        <span class="proj-status status-dev">Private · In development</span>
+        <h3>Crane Management System</h3>
+        <p style="font-size:14.5px;">A practical, business-oriented web app concept for running crane operations day to day.</p>
+      </div>
+      <div>
+        <p style="font-size:15px;margin-bottom:10px;">Covers the operational side of running cranes as a business:</p>
+        <ul>
+          <li>Crane & employee management</li>
+          <li>Invoice generation and document tracking</li>
+          <li>Expiry reminders for critical paperwork</li>
+          <li>PDF generation and dashboard-style monitoring</li>
+        </ul>
+        <div class="tags"><span>Web app</span><span>Dashboards</span><span>Business software</span></div>
+      </div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div>
+        <span class="proj-status status-arch">Experimental prototype</span>
+        <h3>Jarvis — Personal AI Assistant</h3>
+        <p style="font-size:14.5px;">An earlier experimental attempt at building a personal AI assistant.</p>
+      </div>
+      <div>
+        <p style="font-size:15px;margin-bottom:10px;">Concepts explored along the way:</p>
+        <ul>
+          <li>Local language models</li>
+          <li>Voice interaction, speech recognition & text-to-speech</li>
+          <li>Desktop automation and assistant-style interfaces</li>
+        </ul>
+        <div class="tags"><span>Local AI</span><span>Voice</span><span>Automation</span></div>
+      </div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div>
+        <span class="proj-status status-learn">Active exploration</span>
+        <h3>Cybersecurity / CTF</h3>
+        <p style="font-size:14.5px;">An ongoing area of learning, not a claim to expertise.</p>
+      </div>
+      <div>
+        <p style="font-size:15px;margin-bottom:10px;">Working through challenges that cover:</p>
+        <ul>
+          <li>CTF participation and packet analysis</li>
+          <li>Encoded data and steganography-style challenges</li>
+          <li>Investigation, problem solving and Linux / Kali experimentation</li>
+        </ul>
+        <div class="tags"><span>CTF</span><span>Linux</span><span>Security fundamentals</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIMENTS -->
+<section id="experiments">
+  <div class="wrap">
+    <div class="s-head reveal"><h2>The lab</h2><p class="s-tag">Tap a card to see what was explored.</p></div>
+    <div class="lab-grid reveal" id="labGrid">
+      <div class="lab-card"><small>AI</small><b>Local LLMs</b><p>Running language models locally with Ollama — latency, limits and prompt behaviour.</p></div>
+      <div class="lab-card"><small>VOICE</small><b>Voice interfaces</b><p>Speech recognition and text-to-speech pipelines for assistant-style tools.</p></div>
+      <div class="lab-card"><small>AUDIO</small><b>Whisper</b><p>Speech-to-text transcription and how well it holds up in real conditions.</p></div>
+      <div class="lab-card"><small>API</small><b>AI APIs</b><p>Wiring hosted models into small tools and scripts.</p></div>
+      <div class="lab-card"><small>AUTOMATION</small><b>Automation</b><p>Scripts and Apps Script flows that remove repetitive manual work.</p></div>
+      <div class="lab-card"><small>SECURITY</small><b>Cyber challenges</b><p>CTF-style puzzles — encoding, steganography and investigation.</p></div>
+      <div class="lab-card"><small>WEB</small><b>Interactive interfaces</b><p>Small interactive web UIs to learn frontend behaviour hands-on.</p></div>
+      <div class="lab-card"><small>ASSISTANTS</small><b>AI assistants</b><p>Prototyping assistant-style tools end to end, from mic to response.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates">
+  <div class="wrap">
+    <div class="s-head reveal"><h2>Certificates & learning</h2><p class="s-tag">Kept minimal on purpose — this fills in as real certificates come in.</p></div>
+    <div class="cert-grid reveal">
+      <div class="cert-card"><b>AI / ML</b><span>No entries yet</span></div>
+      <div class="cert-card"><b>Programming</b><span>No entries yet</span></div>
+      <div class="cert-card"><b>Data</b><span>No entries yet</span></div>
+      <div class="cert-card"><b>Cybersecurity</b><span>No entries yet</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- GITHUB -->
+<section id="github">
+  <div class="wrap">
+    <div class="gh-card reveal">
+      <div>
+        <h3>See the actual code</h3>
+        <p>Everything Joseph builds — finished, half-finished or abandoned — lives on <span class="gh-username">github.com/joseph-stalin</span>.</p>
+      </div>
+      <a href="https://github.com/joseph-stalin" target="_blank" rel="noopener" class="btn btn-outline" style="border-color:var(--cream);color:var(--cream);">View GitHub →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CURRENTLY LEARNING -->
+<section id="learning">
+  <div class="wrap">
+    <div class="s-head reveal"><h2>Currently learning</h2><p class="s-tag">Stage shown honestly — none of this claims mastery.</p></div>
+    <div class="learn-grid reveal">
+      <div class="learn-card"><b>Machine Learning</b><div class="stage-row"><span class="stage-pill on">Exploring</span><span class="stage-pill on">Learning</span><span class="stage-pill">Building</span><span class="stage-pill">Deepening</span></div></div>
+      <div class="learn-card"><b>Deep Learning</b><div class="stage-row"><span class="stage-pill on">Exploring</span><span class="stage-pill">Learning</span><span class="stage-pill">Building</span><span class="stage-pill">Deepening</span></div></div>
+      <div class="learn-card"><b>Generative AI</b><div class="stage-row"><span class="stage-pill on">Exploring</span><span class="stage-pill on">Learning</span><span class="stage-pill on">Building</span><span class="stage-pill">Deepening</span></div></div>
+      <div class="learn-card"><b>AI Applications</b><div class="stage-row"><span class="stage-pill on">Exploring</span><span class="stage-pill on">Learning</span><span class="stage-pill">Building</span><span class="stage-pill">Deepening</span></div></div>
+      <div class="learn-card"><b>Data Science</b><div class="stage-row"><span class="stage-pill on">Exploring</span><span class="stage-pill on">Learning</span><span class="stage-pill">Building</span><span class="stage-pill">Deepening</span></div></div>
+      <div class="learn-card"><b>Software Development</b><div class="stage-row"><span class="stage-pill on">Exploring</span><span class="stage-pill on">Learning</span><span class="stage-pill on">Building</span><span class="stage-pill">Deepening</span></div></div>
+      <div class="learn-card"><b>Cybersecurity</b><div class="stage-row"><span class="stage-pill on">Exploring</span><span class="stage-pill on">Learning</span><span class="stage-pill">Building</span><span class="stage-pill">Deepening</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact reveal">
+      <h2>Let's build something</h2>
+      <p>Always open to interesting projects, collaborations, ideas and opportunities to learn.</p>
+      <div class="cta-row">
+        <a href="https://www.linkedin.com/in/joseph-stalin" target="_blank" rel="noopener" class="btn btn-primary" style="background:var(--gold);color:var(--ink);">Message on LinkedIn</a>
+        <a href="https://github.com/joseph-stalin" target="_blank" rel="noopener" class="btn btn-outline">View GitHub</a>
+      </div>
+      <div class="social-row">
+        <a href="https://github.com/joseph-stalin" target="_blank" rel="noopener">github.com/joseph-stalin</a>
+        <a href="https://www.linkedin.com/in/joseph-stalin" target="_blank" rel="noopener">linkedin.com/in/joseph-stalin</a>
+        <span style="color:#807A6C;">email — coming soon</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>Joseph Stalin · Built while learning · Press Ctrl + / to jump around</footer>
+
+<div class="cmdk-backdrop" id="cmdkBackdrop">
+  <div class="cmdk">
+    <input id="cmdkInput" placeholder="Jump to… (projects, skills, github, linkedin, contact)" autocomplete="off">
+    <div class="cmdk-hint">↑↓ to navigate · Enter to go · Esc to close</div>
+    <div class="cmdk-list" id="cmdkList"></div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
